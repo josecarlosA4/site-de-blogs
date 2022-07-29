@@ -1,0 +1,60 @@
+<!doctype html>
+
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Novo</title>
+	</head>
+	<body>
+		
+		<section class="menu text-center fixed-top">
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center bg-dark">
+					<div class="col-sm-1">
+						<a href="">
+							HOME
+						</a>
+					</div>
+					<div class="col-sm-1" >
+						<a href="">
+							PERFIL
+						</a>
+					</div>
+					<div class="col-sm-1">
+						<a href="">
+							CONFIGS
+						</a>
+					</div>
+					<div class="col-sm-1">
+						<a href="">
+							ESCREVER
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<section class="post-area">
+			<div class="container-fluid">
+				<h2>Escreva um novo post</h2><br>
+				<form method="POST" enctype="multipart/form-data" action="">
+				Titúlo:(max:60 caracteres)<br>
+				<textarea name="title" class="title-post"></textarea><br>
+				Thumbnail:(300x200)<br>
+				<input type="file" name="file"><br><br>
+
+				Contéudo:<br>
+				<textarea class="post-content" name="post-content"></textarea>
+
+				<input type="submit" value="Enviar" name="suubmit">
+			</form>
+			</div>
+		</section>
+		<scrip src="js/jquery-3.6.0.min.js"></scrip>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
+	</html> 
